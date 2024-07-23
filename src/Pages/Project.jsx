@@ -3,7 +3,7 @@ import React from 'react';
 const Project = () => {
     return (
         <div>
-            <h1>This is Project Page</h1>
+            <img className='h-75 w-100' src="https://img.freepik.com/premium-vector/website-construction-with-laptop_24911-54680.jpg" alt="" />
         </div>
     );
 };
