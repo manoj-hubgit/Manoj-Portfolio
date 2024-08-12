@@ -81,14 +81,16 @@ const Home = () => {
                   delay={2000}
                 />
 
-                <p>
+                <p className="mt-2">
                   I specialize in the MERN stack. With a strong foundation in
                   both frontend and backend development, I create dynamic,
                   user-friendly, and efficient web applications.
                 </p>
-                <div className="fw-bold px-5 py-3 mt-3 fs-5">
-                  <a href=""><button className="btn btns">Resume</button></a>
-                  
+                <div className="fw-bold px-5 py-2 mt-3 fs-5">
+                  <a href="">
+                    <button className="btn btns">Resume</button>
+                  </a>
+
                   <Link to="/skills">
                     <button className="btn btns">Skills</button>
                   </Link>
@@ -100,7 +102,7 @@ const Home = () => {
       </section>
 
       <section className="education-section">
-        <div className="container py-4">
+        <div className="container">
           <div className="row justify-content-center">
             <h1 className="text-center">Education</h1>
             <div className="col-sm-9 col-md-6 mb-3 mb-sm-0">
@@ -117,8 +119,8 @@ const Home = () => {
                 <div className="card-body">
                   <h6>Full Stack Web Development</h6>
                   <p>2024</p>
-                  <p className="card-text p-4">
-                    Learning MERN stack development has been a transformative
+                  <p className="card-text">
+                    {/* Learning MERN stack development has been a transformative
                     experience, enabling me to build dynamic and efficient web
                     applications. Mastering MongoDB for flexible data storage,
                     Express.js for streamlined server-side logic, React for
@@ -126,7 +128,15 @@ const Home = () => {
                     backend development has equipped me with the skills to
                     create full-stack applications. This journey has honed my
                     ability to develop scalable, robust, and interactive
-                    solutions.
+                    solutions. */}
+                    Learning MERN stack development has been transformative,
+                    enabling me to build dynamic and efficient web applications.
+                    Mastering MongoDB for flexible data storage, Express.js for
+                    streamlined server-side logic, React for responsive
+                    interfaces, and Node.js for high-performance backend has
+                    equipped me with the skills to create full-stack
+                    applications. This journey has honed my ability to develop
+                    scalable, robust, and interactive solutions.
                   </p>
                 </div>
               </div>
@@ -144,10 +154,10 @@ const Home = () => {
                   </h5>
                 </div>
                 <div className="card-body">
-                  <h6>Bachelor of Engineering - BE, Agriculture Engineering</h6>
+                  <h6>Bachelor of Agriculture Engineering</h6>
                   <p>2019-2023</p>
                   <p className="card-text">
-                    As an agricultural engineer, my journey into the world of
+                    {/* As an agricultural engineer, my journey into the world of
                     computers began in college, where I learned web development.
                     This experience sparked my interest in how technology can
                     revolutionize agriculture. Combining my engineering
@@ -157,7 +167,15 @@ const Home = () => {
                     resource management, and sustainable practices. Embracing
                     this technological journey has empowered me to contribute
                     meaningfully to the intersection of agriculture and
-                    technology.
+                    technology. */}
+                    As an agricultural engineer, my college web development
+                    studies ignited a passion for how technology can transform
+                    agriculture. By merging my engineering expertise with web
+                    development skills, I've been able to design innovative
+                    solutions for precision farming, resource management, and
+                    sustainability. This blend of agriculture and technology
+                    enables me to make meaningful contributions to advancing the
+                    agricultural sector.
                   </p>
                 </div>
               </div>
@@ -211,7 +229,7 @@ const Home = () => {
                 alt=""
               />
             </div>
-            
+
             <div className="col-md-6 col-sm-11 text-sm-center">
               <h3 className="text-center">Reason To Hire Me</h3>
               <p>
